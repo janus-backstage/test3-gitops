@@ -1,0 +1,21 @@
+app:
+  name: test3
+  namespace: test3-dev
+  cluster: 
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/test3.git
+  org: janus-backstage
+  name: test3
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Quay
+  organization: janus-backstage
+  host: quay.io
+  name: test3
+  tag: latest

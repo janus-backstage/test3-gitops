@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: test3-prod
-  namespace: openshift-gitops
+  namespace: openshift-gitops-operator
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
